@@ -1,0 +1,62 @@
+{
+  "officehome": {
+    "masked": "out/checkpoints/masked_finetune_expanded/align_topk/officehome/uspno4t7/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt",
+    "gsae": "out/checkpoints/base_expanded/align_topk/ndhhm7ad/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt"
+  },
+  "eurosat": {
+    "masked": "out/checkpoints/masked_finetune_expanded/align_topk/eurosat/0yacfvhi/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt",
+    "gsae": "out/checkpoints/base_expanded/align_topk/ndhhm7ad/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt"
+  },
+  "cityscapes": {
+    "masked": "out/checkpoints/masked_finetune_expanded/align_topk/cityscapes/70a4daqn/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt",
+    "gsae": "out/checkpoints/base_expanded/align_topk/ndhhm7ad/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt"
+  },
+  "dtd": {
+    "masked": "out/checkpoints/masked_finetune_expanded/align_topk/dtd/90pxe7fz/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt",
+    "gsae": "out/checkpoints/base_expanded/align_topk/ndhhm7ad/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt"
+  },
+  "kitti": {
+    "masked": "out/checkpoints/masked_finetune_expanded/align_topk/kitti/im3o2pny/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt",
+    "gsae": "out/checkpoints/base_expanded/align_topk/ndhhm7ad/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt"
+  },
+  "cub2002011": {
+    "masked": "out/checkpoints/masked_finetune_expanded/align_topk/cub2002011/lpoxsu39/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt",
+    "gsae": "out/checkpoints/base_expanded/align_topk/ndhhm7ad/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt"
+  },
+  "ucf101": {
+    "masked": "out/checkpoints/masked_finetune_expanded/align_topk/ucf101/qdh89owe/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt",
+    "gsae": "out/checkpoints/base_expanded/align_topk/ndhhm7ad/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt"
+  },
+  "fgvc": {
+    "masked": "out/checkpoints/masked_finetune_expanded/align_topk/fgvc/e8c6hkna/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt",
+    "gsae": "out/checkpoints/base_expanded/align_topk/ndhhm7ad/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt"
+  },
+  "pets": {
+    "masked": "out/checkpoints/masked_finetune_table1_expanded/align_topk/oxford_pets/vzx19kom/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt",
+    "gsae": "out/checkpoints/base_expanded/align_topk/ndhhm7ad/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt"
+  },
+  "imagenet_a": {
+    "masked": "out/checkpoints/masked_finetune_table1_expanded/align_topk/imagenet_a/21aoy3nl/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt",
+    "gsae": "out/checkpoints/base_expanded/align_topk/ndhhm7ad/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt"
+  },
+  "sun397": {
+    "masked": "out/checkpoints/masked_finetune_table1_expanded/align_topk/sun397/sxekfh1b/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt",
+    "gsae": "out/checkpoints/base_expanded/align_topk/ndhhm7ad/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt"
+  },
+  "pathmnist": {
+    "masked": "out/checkpoints/masked_finetune_table1_expanded/align_topk/medmnist/gfblyacr/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt",
+    "gsae": "out/checkpoints/base_expanded/align_topk/ndhhm7ad/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt"
+  },
+  "oxford_flowers": {
+    "masked": "out/checkpoints/masked_finetune_table1_expanded/align_topk/oxford_flowers/7s6vrs2y/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt",
+    "gsae": "out/checkpoints/base_expanded/align_topk/ndhhm7ad/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt"
+  },
+  "stanfordcars": {
+    "masked": "out/checkpoints/masked_finetune_table1_align/stanfordcars/hzlxweun/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt",
+    "gsae": "out/checkpoints/base_expanded/align_topk/ndhhm7ad/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt"
+  },
+  "food101": {
+    "masked": "out/checkpoints/masked_finetune_table1_align/food101/yhvst0f6/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt",
+    "gsae": "out/checkpoints/base_expanded/align_topk/ndhhm7ad/final_sparse_autoencoder_kakaobrain/align-base_-2_resid_40960.pt"
+  }
+}

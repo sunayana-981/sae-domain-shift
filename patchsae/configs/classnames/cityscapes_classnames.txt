@@ -1,0 +1,12 @@
+building
+bus
+car
+fence
+person
+road
+sidewalk
+terrain
+train
+truck
+vegetation
+wall

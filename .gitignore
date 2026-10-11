@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+/data/
+patchsae/data/
+sae_vlm/data/
+**/out/
+**/output/
+**/wandb/
+*.pt
+*.pth
+*.pth.tar*
+*.npz
+*.npy
+*.ckpt
+*.safetensors
+*.log

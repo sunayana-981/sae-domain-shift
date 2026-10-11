@@ -1,0 +1,79 @@
+{
+  "eurosat": {
+    "scratchsae": "/path/to/sae-domain-shift/patchsae/out/checkpoints/eurosat/9807wpnz/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt",
+    "masked": "/path/to/sae-domain-shift/patchsae/out/checkpoints/masked_finetune_all/eurosat/mvqo23bh/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt",
+    "masked_gated": "/path/to/sae-domain-shift/patchsae/out/checkpoints/masked_finetune_all_gated/eurosat/6q3edo25/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt",
+    "gsae_gated": "out/checkpoints/gsae_gated/ulu2kq21/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt"
+  },
+  "pets": {
+    "scratchsae": "/path/to/sae-domain-shift/patchsae/out/checkpoints/pets/1rht5747/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt",
+    "masked": "/path/to/sae-domain-shift/patchsae/out/checkpoints/masked_finetune_all/pets/2hdd1yfl/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt"
+  },
+  "caltech101": {
+    "masked": "/path/to/sae-domain-shift/patchsae/out/checkpoints/masked_finetune_all/caltech101/qelj0xrl/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt",
+    "masked_gated": "/path/to/sae-domain-shift/patchsae/out/checkpoints/masked_finetune_all_gated/caltech101/eskrbw7t/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt",
+    "gsae_gated": "out/checkpoints/gsae_gated/ulu2kq21/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt"
+  },
+  "cub2002011": {
+    "masked": "/path/to/sae-domain-shift/patchsae/out/checkpoints/masked_finetune_all/cub2002011/a4mbv637/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt",
+    "masked_gated": "/path/to/sae-domain-shift/patchsae/out/checkpoints/masked_finetune_all_gated/cub2002011/jufd5l4h/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt",
+    "gsae_gated": "out/checkpoints/gsae_gated/ulu2kq21/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt"
+  },
+  "dtd": {
+    "masked": "/path/to/sae-domain-shift/patchsae/out/checkpoints/masked_finetune_all/dtd/tokty2q3/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt",
+    "masked_gated": "/path/to/sae-domain-shift/patchsae/out/checkpoints/masked_finetune_all_gated/dtd/9e6v748a/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt",
+    "gsae_gated": "out/checkpoints/gsae_gated/ulu2kq21/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt"
+  },
+  "kitti": {
+    "masked": "/path/to/sae-domain-shift/patchsae/out/checkpoints/masked_finetune_all/kitti/b0fda336/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt",
+    "masked_gated": "/path/to/sae-domain-shift/patchsae/out/checkpoints/masked_finetune_all_gated/kitti/66i2amho/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt",
+    "gsae_gated": "out/checkpoints/gsae_gated/ulu2kq21/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt"
+  },
+  "pathmnist": {
+    "masked": "/path/to/sae-domain-shift/patchsae/out/checkpoints/masked_finetune_all/pathmnist/j1j8vpa8/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt"
+  },
+  "officehome": {
+    "masked": "/path/to/sae-domain-shift/patchsae/out/checkpoints/masked_finetune_all/officehome/ckkfri2x/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt",
+    "masked_gated": "/path/to/sae-domain-shift/patchsae/out/checkpoints/masked_finetune_all_gated/officehome/1czhr9dn/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt",
+    "gsae_gated": "out/checkpoints/gsae_gated/ulu2kq21/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt"
+  },
+  "ucf101": {
+    "masked": "/path/to/sae-domain-shift/patchsae/out/checkpoints/masked_finetune_all/ucf101/8avvvzey/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt",
+    "masked_gated": "/path/to/sae-domain-shift/patchsae/out/checkpoints/masked_finetune_all_gated/ucf101/t9e1tn3n/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt",
+    "gsae_gated": "out/checkpoints/gsae_gated/ulu2kq21/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt"
+  },
+  "fgvc": {
+    "masked": "/path/to/sae-domain-shift/patchsae/out/checkpoints/masked_finetune_all/fgvc/ztd5s2eg/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt",
+    "masked_gated": "/path/to/sae-domain-shift/patchsae/out/checkpoints/masked_finetune_all_gated/fgvc/9dpedphr/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt",
+    "gsae_gated": "out/checkpoints/gsae_gated/ulu2kq21/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt"
+  },
+  "cityscapes": {
+    "masked": "/path/to/sae-domain-shift/patchsae/out/checkpoints/masked_finetune_all/cityscapes/h1hotol3/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt",
+    "masked_gated": "/path/to/sae-domain-shift/patchsae/out/checkpoints/masked_finetune_all_gated/cityscapes/91662cxb/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt",
+    "gsae_gated": "out/checkpoints/gsae_gated/ulu2kq21/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt"
+  },
+  "imagenet_anchor": {
+    "ftsae": "/path/to/sae-domain-shift/patchsae/out/checkpoints/imagenet_anchor/ftsae/seed42/k3i8yoyk/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt"
+  },
+  "imagenet_a": {
+    "masked": "out/checkpoints/masked_finetune_table1_clip/imagenet_a/sq7g2q28/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt"
+  },
+  "stanfordcars": {
+    "masked": "out/checkpoints/masked_finetune_table1_clip/stanfordcars/6vla9n63/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt"
+  },
+  "food101": {
+    "masked": "out/checkpoints/masked_finetune_table1_clip/food101/vi6tdnte/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt"
+  },
+  "oxford_flowers": {
+    "masked": "out/checkpoints/masked_finetune_table1_clip/oxford_flowers/00m1ydkw/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt"
+  },
+  "chestmnist": {
+    "masked": "out/checkpoints/masked_finetune_table1_clip/chestmnist/5kpec4nl/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt"
+  },
+  "sun397": {
+    "masked": "out/checkpoints/masked_finetune_table1_clip/sun397/y40wa9xv/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt"
+  },
+  "imagenet-sketch": {
+    "masked": "out/checkpoints/masked_finetune_table1_clip/imagenet-sketch/zudqd1gz/final_sparse_autoencoder_openai/clip-vit-base-patch16_-2_resid_49152.pt"
+  }
+}

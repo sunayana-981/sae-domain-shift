@@ -1,0 +1,66 @@
+{
+  "officehome": {
+    "masked": "out/checkpoints/masked_finetune_expanded/dino_topk/officehome/3ndsimbi/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/dino_topk/h9uebnqu/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt"
+  },
+  "eurosat": {
+    "masked": "out/checkpoints/masked_finetune_expanded/dino_topk/eurosat/q55gx5ro/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/dino_topk/h9uebnqu/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt"
+  },
+  "cityscapes": {
+    "masked": "out/checkpoints/masked_finetune_expanded/dino_topk/cityscapes/h9x8p6uu/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/dino_topk/h9uebnqu/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt"
+  },
+  "dtd": {
+    "masked": "out/checkpoints/masked_finetune_expanded/dino_topk/dtd/4oum6mef/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/dino_topk/h9uebnqu/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt"
+  },
+  "kitti": {
+    "masked": "out/checkpoints/masked_finetune_expanded/dino_topk/kitti/2g5cq3oz/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/dino_topk/h9uebnqu/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt"
+  },
+  "caltech101": {
+    "masked": "out/checkpoints/masked_finetune_expanded/dino_topk/caltech101/3oauwskf/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/dino_topk/h9uebnqu/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt"
+  },
+  "cub2002011": {
+    "masked": "out/checkpoints/masked_finetune_expanded/dino_topk/cub2002011/dgmofj6u/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/dino_topk/h9uebnqu/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt"
+  },
+  "ucf101": {
+    "masked": "out/checkpoints/masked_finetune_expanded/dino_topk/ucf101/hmeu3l6i/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/dino_topk/h9uebnqu/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt"
+  },
+  "fgvc": {
+    "masked": "out/checkpoints/masked_finetune_expanded/dino_topk/fgvc/kk7t4iq1/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/dino_topk/h9uebnqu/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt"
+  },
+  "pets": {
+    "masked": "out/checkpoints/masked_finetune_table1_expanded/dino_topk/oxford_pets/3guxnpwm/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/dino_topk/h9uebnqu/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt"
+  },
+  "imagenet_a": {
+    "masked": "out/checkpoints/masked_finetune_table1_expanded/dino_topk/imagenet_a/e3fudel0/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/dino_topk/h9uebnqu/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt"
+  },
+  "sun397": {
+    "masked": "out/checkpoints/masked_finetune_table1_expanded/dino_topk/sun397/mchsvqvq/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/dino_topk/h9uebnqu/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt"
+  },
+  "pathmnist": {
+    "masked": "out/checkpoints/masked_finetune_table1_expanded/dino_topk/medmnist/09nrwxga/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/dino_topk/h9uebnqu/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt"
+  },
+  "oxford_flowers": {
+    "masked": "out/checkpoints/masked_finetune_table1_expanded/dino_topk/oxford_flowers/nnimmbxa/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/dino_topk/h9uebnqu/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt"
+  },
+  "stanfordcars": {
+    "masked": "out/checkpoints/masked_finetune_table1_dino/stanfordcars/qru5qafv/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/dino_topk/h9uebnqu/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt"
+  },
+  "food101": {
+    "masked": "out/checkpoints/masked_finetune_table1_dino/food101/uhiz1k6g/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/dino_topk/h9uebnqu/final_sparse_autoencoder_facebook/dinov2-base_-2_resid_49152.pt"
+  }
+}

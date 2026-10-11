@@ -1,0 +1,123 @@
+{
+  "pets": {
+    "type": "imagefolder",
+    "path": "/path/to/sae-domain-shift/data/oxford_pets_imagefolder/train",
+    "lora_checkpoint": "/path/to/sae-domain-shift/unified_weights/dino_dinov2-base/oxford_pets/16shots/seed1/lora_adapter_weights.pt"
+  },
+  "eurosat": {
+    "type": "imagefolder",
+    "path": "/path/to/sae-domain-shift/data/eurosat/2750",
+    "lora_checkpoint": "/path/to/sae-domain-shift/unified_weights/dino_dinov2-base/eurosat/16shots/seed1/lora_adapter_weights.pt"
+  },
+  "pathmnist": {
+    "type": "medmnist_npz",
+    "npz_path": "/path/to/sae-domain-shift/data/pathmnist_imagefolder/pathmnist.npz",
+    "imagefolder_root": "/path/to/sae-domain-shift/data/pathmnist_imagefolder",
+    "lora_checkpoint": "/path/to/sae-domain-shift/unified_weights/dino_dinov2-base/medmnist/16shots/seed1/lora_adapter_weights.pt"
+  },
+  "imagenet_subset": {
+    "type": "imagefolder",
+    "path": null,
+    "lora_checkpoint": null,
+    "note": "path is supplied via --imagenet_subset_dir; lora_checkpoint via --lora_checkpoints (e.g. reuse the pathmnist LoRA for the old-domain eval)"
+  },
+  "caltech101": {
+    "type": "imagefolder",
+    "path": "/path/to/sae-domain-shift/data/caltech-101/Caltech101/101_ObjectCategories",
+    "lora_checkpoint": "/path/to/sae-domain-shift/unified_weights/dino_dinov2-base/caltech101/16shots/seed1/lora_adapter_weights.pt"
+  },
+  "cityscapes": {
+    "type": "imagefolder",
+    "path": "/path/to/sae-domain-shift/data/cityscapes_imagefolder/train",
+    "lora_checkpoint": "/path/to/sae-domain-shift/lora_weights/vitb16/cityscapes/16shots/seed1/lora_weights.pt"
+  },
+  "cub2002011": {
+    "type": "imagefolder",
+    "path": "/path/to/sae-domain-shift/data/cub2002011/train",
+    "lora_checkpoint": "/path/to/sae-domain-shift/lora_weights/vitb16/cub2002011/16shots/seed1/lora_weights.pt"
+  },
+  "dtd": {
+    "type": "imagefolder",
+    "path": "/path/to/sae-domain-shift/data/dtd/images",
+    "lora_checkpoint": "/path/to/sae-domain-shift/unified_weights/dino_dinov2-base/dtd/16shots/seed1/lora_adapter_weights.pt",
+    "note": "only a seed42 LoRA checkpoint exists for dtd (others use seed1)"
+  },
+  "fgvc": {
+    "type": "imagefolder",
+    "path": "/path/to/sae-domain-shift/data/fgvc_imagefolder/train",
+    "lora_checkpoint": "/path/to/sae-domain-shift/unified_weights/dino_dinov2-base/fgvc/16shots/seed1/lora_adapter_weights.pt"
+  },
+  "kitti": {
+    "type": "imagefolder",
+    "path": "/path/to/sae-domain-shift/data/kitti_imagefolder/train",
+    "lora_checkpoint": "/path/to/sae-domain-shift/lora_weights/vitb16/kitti/16shots/seed1/lora_weights.pt"
+  },
+  "officehome": {
+    "type": "imagefolder",
+    "path": "/path/to/sae-domain-shift/data/officehome_imagefolder",
+    "lora_checkpoint": "/path/to/sae-domain-shift/lora_weights/vitb16/officehome/16shots/seed1/lora_weights.pt"
+  },
+  "ucf101": {
+    "type": "imagefolder",
+    "path": "/path/to/sae-domain-shift/data/UCF101/UCF-101-midframes",
+    "lora_checkpoint": "/path/to/sae-domain-shift/unified_weights/dino_dinov2-base/ucf101/16shots/seed1/lora_adapter_weights.pt"
+  },
+  "imagenet_anchor": {
+    "type": "imagefolder",
+    "path": "/path/to/sae-domain-shift/data/imagenet/val",
+    "lora_checkpoint": "/path/to/sae-domain-shift/lora_weights/vitb16/imagenet/16shots/seed1/lora_weights.pt"
+  },
+  "imagenet_r": {
+    "type": "imagefolder",
+    "path": "/path/to/sae-domain-shift/data/imagenet-r",
+    "classname_map": "/path/to/sae-domain-shift/patchsae/configs/classnames/imagenet_classnames.txt",
+    "classname_map_mode": "wnid",
+    "lora_checkpoint": "/path/to/sae-domain-shift/unified_weights/vitb16/imagenet_r/16shots/seed1/lora_adapter_weights.pt"
+  },
+  "imagenet_a": {
+    "type": "imagefolder",
+    "path": "/path/to/sae-domain-shift/data/imagenet-a",
+    "classname_map": "/path/to/sae-domain-shift/patchsae/configs/classnames/imagenet_classnames.txt",
+    "classname_map_mode": "wnid",
+    "lora_checkpoint": "/path/to/sae-domain-shift/unified_weights/dino_dinov2-base/imagenet_a/16shots/seed1/lora_adapter_weights.pt"
+  },
+  "imagenet-sketch": {
+    "type": "imagefolder",
+    "path": "/path/to/sae-domain-shift/data/sketch",
+    "classname_map": "/path/to/sae-domain-shift/patchsae/configs/classnames/imagenet-sketch_classnames.txt",
+    "classname_map_mode": "wnid",
+    "lora_checkpoint": "/path/to/sae-domain-shift/unified_weights/vitb16/imagenet_sketch/16shots/seed1/lora_adapter_weights.pt"
+  },
+  "imagenet_v2": {
+    "type": "imagefolder",
+    "path": "/path/to/sae-domain-shift/data/imagenetv2/imagenetv2-matched-frequency-format-val",
+    "classname_map": "/path/to/sae-domain-shift/patchsae/configs/classnames/imagenet_classnames.txt",
+    "classname_map_mode": "numeric_index",
+    "lora_checkpoint": "/path/to/sae-domain-shift/unified_weights/vitb16/imagenet_v2/16shots/seed1/lora_adapter_weights.pt"
+  },
+  "sun397": {
+    "type": "hf_dataset_info",
+    "dataset_info_key": "sun397",
+    "lora_checkpoint": "/path/to/sae-domain-shift/unified_weights/dino_dinov2-base/sun397/16shots/seed1/lora_adapter_weights.pt"
+  },
+  "food101": {
+    "type": "hf_dataset_info",
+    "dataset_info_key": "food101",
+    "lora_checkpoint": "/path/to/sae-domain-shift/unified_weights/dino_dinov2-base/food101/16shots/seed1/lora_adapter_weights.pt"
+  },
+  "stanfordcars": {
+    "type": "hf_dataset_info",
+    "dataset_info_key": "stanfordcars",
+    "lora_checkpoint": "/path/to/sae-domain-shift/unified_weights/dino_dinov2-base/stanford_cars/16shots/seed1/lora_adapter_weights.pt"
+  },
+  "oxford_flowers": {
+    "type": "hf_dataset_info",
+    "dataset_info_key": "oxford_flowers",
+    "lora_checkpoint": "/path/to/sae-domain-shift/unified_weights/dino_dinov2-base/oxford_flowers/16shots/seed1/lora_adapter_weights.pt"
+  },
+  "chestmnist": {
+    "type": "imagefolder",
+    "path": "/path/to/sae-domain-shift/data/chestmnist_imagefolder",
+    "lora_checkpoint": "/path/to/sae-domain-shift/unified_weights/vitb16/chestmnist/16shots/seed1/lora_adapter_weights.pt"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "officehome": {
+    "masked": "out/checkpoints/masked_finetune_expanded/siglip2_topk/officehome/6lsokrkf/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/siglip2_topk/1eoktnwv/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt"
+  },
+  "eurosat": {
+    "masked": "out/checkpoints/masked_finetune_expanded/siglip2_topk/eurosat/5v5j08qj/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/siglip2_topk/1eoktnwv/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt"
+  },
+  "cityscapes": {
+    "masked": "out/checkpoints/masked_finetune_expanded/siglip2_topk/cityscapes/i0ksbxre/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/siglip2_topk/1eoktnwv/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt"
+  },
+  "dtd": {
+    "masked": "out/checkpoints/masked_finetune_expanded/siglip2_topk/dtd/vyx4pa2l/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/siglip2_topk/1eoktnwv/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt"
+  },
+  "kitti": {
+    "masked": "out/checkpoints/masked_finetune_expanded/siglip2_topk/kitti/ppv9cjhm/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/siglip2_topk/1eoktnwv/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt"
+  },
+  "caltech101": {
+    "masked": "out/checkpoints/masked_finetune_expanded/siglip2_topk/caltech101/tbdlzoln/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/siglip2_topk/1eoktnwv/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt"
+  },
+  "cub2002011": {
+    "masked": "out/checkpoints/masked_finetune_expanded/siglip2_topk/cub2002011/q05lw11n/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/siglip2_topk/1eoktnwv/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt"
+  },
+  "ucf101": {
+    "masked": "out/checkpoints/masked_finetune_expanded/siglip2_topk/ucf101/a3rgxbj1/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/siglip2_topk/1eoktnwv/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt"
+  },
+  "fgvc": {
+    "masked": "out/checkpoints/masked_finetune_expanded/siglip2_topk/fgvc/xuwfj6wx/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/siglip2_topk/1eoktnwv/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt"
+  },
+  "pets": {
+    "masked": "out/checkpoints/masked_finetune_table1_expanded/siglip2_topk/oxford_pets/10aeuh5j/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/siglip2_topk/1eoktnwv/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt"
+  },
+  "imagenet_a": {
+    "masked": "out/checkpoints/masked_finetune_table1_expanded/siglip2_topk/imagenet_a/ymfpdtgp/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/siglip2_topk/1eoktnwv/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt"
+  },
+  "sun397": {
+    "masked": "out/checkpoints/masked_finetune_table1_expanded/siglip2_topk/sun397/jiocfeqd/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/siglip2_topk/1eoktnwv/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt"
+  },
+  "pathmnist": {
+    "masked": "out/checkpoints/masked_finetune_table1_expanded/siglip2_topk/medmnist/94542mel/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/siglip2_topk/1eoktnwv/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt"
+  },
+  "oxford_flowers": {
+    "masked": "out/checkpoints/masked_finetune_table1_expanded/siglip2_topk/oxford_flowers/62mhn4k9/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/siglip2_topk/1eoktnwv/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt"
+  },
+  "stanfordcars": {
+    "masked": "out/checkpoints/masked_finetune_table1_siglip2/stanfordcars/fu1m5wnt/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/siglip2_topk/1eoktnwv/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt"
+  },
+  "food101": {
+    "masked": "out/checkpoints/masked_finetune_table1_siglip2/food101/2rpco73z/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt",
+    "gsae": "out/checkpoints/base_expanded/siglip2_topk/1eoktnwv/final_sparse_autoencoder_google/siglip2-base-patch16-224_-2_resid_49152.pt"
+  }
+}
